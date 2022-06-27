@@ -1,0 +1,27 @@
+.container {
+	font: 40px Tahoma, sans-serif;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	column-gap: 10px;
+}
+.item {
+	width: 80px;/*add padding 10*2 then = 100*/
+	height: 130px;/*add padding 10*2 then = 150*/
+	background-color: #eeeff2;
+	border-left: 10px dotted #D0D0FF;
+	flex: none;
+	padding: 10px;
+}
+.item:hover {
+	cursor: pointer;
+	background-color: yellow;
+	color: goldenrod;
+}
+#F {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}

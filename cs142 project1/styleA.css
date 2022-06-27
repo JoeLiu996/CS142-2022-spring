@@ -1,0 +1,37 @@
+html {
+	height: 100%;/*give 100% height of parent container(otherwise cannot take the whole page)*/
+}
+body {
+    height: 100%;
+}
+.container {
+    font: 40px Tahoma, sans-serif;
+    height: 100%;
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+	/*center horizontally*/
+    align-items: center;
+}
+.item {
+	height: 100px;
+	width: 100px;
+	border-top: 1px solid #687291;
+	text-align: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+/*use :nth-child() selector for alternate background color*/
+.item:nth-child(odd) {
+	background-color: #dfe1e7;
+}
+.item:nth-child(even) {
+	background-color: #eeeff2;
+}
+#F {
+	background-color: #687291;
+	border: 4px solid black;
+	/*make text to center vertically(now flex direction is column, can't use 
+	vertical-align)*/
+	line-height:100px;
+}
