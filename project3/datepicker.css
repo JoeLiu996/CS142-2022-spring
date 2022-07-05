@@ -1,0 +1,24 @@
+.normal {
+    font-weight: bold;
+}
+
+.button {
+    background-color: #909384;
+    padding: 4px;
+}
+
+table {
+    padding: 10px;
+}
+
+table, th {
+    border: 2px solid black;
+}
+
+td {
+    border: 1px solid #ff18a0;
+    text-align: center;
+}
+
+span {
+    font-size: 28pt;
