@@ -1,0 +1,16 @@
+.toolbar {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.button {
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+	text-decoration: underline overline;
+	background-color: #b3e6ff;
+    color: #47d147;
+    font-family: monospace;
+    font-size: 2em;
+}
