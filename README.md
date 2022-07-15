@@ -63,6 +63,6 @@ npm run build:w
 Nazhou Liu - [liun0014@e.ntu.edu.sg](mailto:liun0014@e.ntu.edu.sg)
 
 If you want to pull a request, please click this button.
-<a href="https://github.com/dastratakos/Photo-Sharing-Web-Application/issues">
+<a href="https://github.com/JoeLiu996/Photo-sharing-web-application/issues">
         Request Feature
     </a>
